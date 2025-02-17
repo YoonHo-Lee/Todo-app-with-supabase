@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className="bg-black text-white p-4">test nest.js layout</nav>
         {children}
       </body>
     </html>
